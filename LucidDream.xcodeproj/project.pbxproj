@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB7F5FCF207B48B000D0C458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F5FCE207B48B000D0C458 /* AppDelegate.swift */; };
+		EB7F5FD1207B48B000D0C458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F5FD0207B48B000D0C458 /* ViewController.swift */; };
+		EB7F5FD4207B48B000D0C458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7F5FD2207B48B000D0C458 /* Main.storyboard */; };
+		EB7F5FD7207B48B000D0C458 /* LucidDream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB7F5FD5207B48B000D0C458 /* LucidDream.xcdatamodeld */; };
+		EB7F5FD9207B48B000D0C458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7F5FD8207B48B000D0C458 /* Assets.xcassets */; };
+		EB7F5FDC207B48B000D0C458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7F5FDA207B48B000D0C458 /* LaunchScreen.storyboard */; };
+		EB7F5FE7207B48B000D0C458 /* LucidDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F5FE6207B48B000D0C458 /* LucidDreamTests.swift */; };
+		EB7F5FF2207B48B000D0C458 /* LucidDreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F5FF1207B48B000D0C458 /* LucidDreamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB7F5FE3207B48B000D0C458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7F5FC3207B48B000D0C458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7F5FCA207B48B000D0C458;
+			remoteInfo = LucidDream;
+		};
+		EB7F5FEE207B48B000D0C458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7F5FC3207B48B000D0C458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7F5FCA207B48B000D0C458;
+			remoteInfo = LucidDream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB7F5FCB207B48B000D0C458 /* LucidDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LucidDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7F5FCE207B48B000D0C458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB7F5FD0207B48B000D0C458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB7F5FD3207B48B000D0C458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB7F5FD6207B48B000D0C458 /* LucidDream.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LucidDream.xcdatamodel; sourceTree = "<group>"; };
+		EB7F5FD8207B48B000D0C458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB7F5FDB207B48B000D0C458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB7F5FDD207B48B000D0C458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7F5FE2207B48B000D0C458 /* LucidDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LucidDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7F5FE6207B48B000D0C458 /* LucidDreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LucidDreamTests.swift; sourceTree = "<group>"; };
+		EB7F5FE8207B48B000D0C458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7F5FED207B48B000D0C458 /* LucidDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LucidDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7F5FF1207B48B000D0C458 /* LucidDreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LucidDreamUITests.swift; sourceTree = "<group>"; };
+		EB7F5FF3207B48B000D0C458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB7F5FC8207B48B000D0C458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7F5FDF207B48B000D0C458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7F5FEA207B48B000D0C458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB7F5FC2207B48B000D0C458 = {
+			isa = PBXGroup;
+			children = (
+				EB7F5FCD207B48B000D0C458 /* LucidDream */,
+				EB7F5FE5207B48B000D0C458 /* LucidDreamTests */,
+				EB7F5FF0207B48B000D0C458 /* LucidDreamUITests */,
+				EB7F5FCC207B48B000D0C458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB7F5FCC207B48B000D0C458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F5FCB207B48B000D0C458 /* LucidDream.app */,
+				EB7F5FE2207B48B000D0C458 /* LucidDreamTests.xctest */,
+				EB7F5FED207B48B000D0C458 /* LucidDreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB7F5FCD207B48B000D0C458 /* LucidDream */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F5FCE207B48B000D0C458 /* AppDelegate.swift */,
+				EB7F5FD0207B48B000D0C458 /* ViewController.swift */,
+				EB7F5FD2207B48B000D0C458 /* Main.storyboard */,
+				EB7F5FD8207B48B000D0C458 /* Assets.xcassets */,
+				EB7F5FDA207B48B000D0C458 /* LaunchScreen.storyboard */,
+				EB7F5FDD207B48B000D0C458 /* Info.plist */,
+				EB7F5FD5207B48B000D0C458 /* LucidDream.xcdatamodeld */,
+			);
+			path = LucidDream;
+			sourceTree = "<group>";
+		};
+		EB7F5FE5207B48B000D0C458 /* LucidDreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F5FE6207B48B000D0C458 /* LucidDreamTests.swift */,
+				EB7F5FE8207B48B000D0C458 /* Info.plist */,
+			);
+			path = LucidDreamTests;
+			sourceTree = "<group>";
+		};
+		EB7F5FF0207B48B000D0C458 /* LucidDreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F5FF1207B48B000D0C458 /* LucidDreamUITests.swift */,
+				EB7F5FF3207B48B000D0C458 /* Info.plist */,
+			);
+			path = LucidDreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB7F5FCA207B48B000D0C458 /* LucidDream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7F5FF6207B48B000D0C458 /* Build configuration list for PBXNativeTarget "LucidDream" */;
+			buildPhases = (
+				EB7F5FC7207B48B000D0C458 /* Sources */,
+				EB7F5FC8207B48B000D0C458 /* Frameworks */,
+				EB7F5FC9207B48B000D0C458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LucidDream;
+			productName = LucidDream;
+			productReference = EB7F5FCB207B48B000D0C458 /* LucidDream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB7F5FE1207B48B000D0C458 /* LucidDreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7F5FF9207B48B000D0C458 /* Build configuration list for PBXNativeTarget "LucidDreamTests" */;
+			buildPhases = (
+				EB7F5FDE207B48B000D0C458 /* Sources */,
+				EB7F5FDF207B48B000D0C458 /* Frameworks */,
+				EB7F5FE0207B48B000D0C458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB7F5FE4207B48B000D0C458 /* PBXTargetDependency */,
+			);
+			name = LucidDreamTests;
+			productName = LucidDreamTests;
+			productReference = EB7F5FE2207B48B000D0C458 /* LucidDreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB7F5FEC207B48B000D0C458 /* LucidDreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7F5FFC207B48B000D0C458 /* Build configuration list for PBXNativeTarget "LucidDreamUITests" */;
+			buildPhases = (
+				EB7F5FE9207B48B000D0C458 /* Sources */,
+				EB7F5FEA207B48B000D0C458 /* Frameworks */,
+				EB7F5FEB207B48B000D0C458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB7F5FEF207B48B000D0C458 /* PBXTargetDependency */,
+			);
+			name = LucidDreamUITests;
+			productName = LucidDreamUITests;
+			productReference = EB7F5FED207B48B000D0C458 /* LucidDreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB7F5FC3207B48B000D0C458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.nietzsche;
+				TargetAttributes = {
+					EB7F5FCA207B48B000D0C458 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					EB7F5FE1207B48B000D0C458 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB7F5FCA207B48B000D0C458;
+					};
+					EB7F5FEC207B48B000D0C458 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB7F5FCA207B48B000D0C458;
+					};
+				};
+			};
+			buildConfigurationList = EB7F5FC6207B48B000D0C458 /* Build configuration list for PBXProject "LucidDream" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB7F5FC2207B48B000D0C458;
+			productRefGroup = EB7F5FCC207B48B000D0C458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB7F5FCA207B48B000D0C458 /* LucidDream */,
+				EB7F5FE1207B48B000D0C458 /* LucidDreamTests */,
+				EB7F5FEC207B48B000D0C458 /* LucidDreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB7F5FC9207B48B000D0C458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7F5FDC207B48B000D0C458 /* LaunchScreen.storyboard in Resources */,
+				EB7F5FD9207B48B000D0C458 /* Assets.xcassets in Resources */,
+				EB7F5FD4207B48B000D0C458 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7F5FE0207B48B000D0C458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7F5FEB207B48B000D0C458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB7F5FC7207B48B000D0C458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7F5FD1207B48B000D0C458 /* ViewController.swift in Sources */,
+				EB7F5FCF207B48B000D0C458 /* AppDelegate.swift in Sources */,
+				EB7F5FD7207B48B000D0C458 /* LucidDream.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7F5FDE207B48B000D0C458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7F5FE7207B48B000D0C458 /* LucidDreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7F5FE9207B48B000D0C458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7F5FF2207B48B000D0C458 /* LucidDreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB7F5FE4207B48B000D0C458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7F5FCA207B48B000D0C458 /* LucidDream */;
+			targetProxy = EB7F5FE3207B48B000D0C458 /* PBXContainerItemProxy */;
+		};
+		EB7F5FEF207B48B000D0C458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7F5FCA207B48B000D0C458 /* LucidDream */;
+			targetProxy = EB7F5FEE207B48B000D0C458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB7F5FD2207B48B000D0C458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7F5FD3207B48B000D0C458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB7F5FDA207B48B000D0C458 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7F5FDB207B48B000D0C458 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB7F5FF4207B48B000D0C458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB7F5FF5207B48B000D0C458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB7F5FF7207B48B000D0C458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 53PCKL938K;
+				INFOPLIST_FILE = LucidDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.js.LucidDream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c732e487-8caf-48ad-993a-ab24dc143162";
+				PROVISIONING_PROFILE_SPECIFIER = com.js.LucidDream;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB7F5FF8207B48B000D0C458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 53PCKL938K;
+				INFOPLIST_FILE = LucidDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.js.LucidDream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "30c005c3-9a79-430f-8571-4cdf8fda892c";
+				PROVISIONING_PROFILE_SPECIFIER = com.js.LucidDream.product;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB7F5FFA207B48B000D0C458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R2QCX6BSC;
+				INFOPLIST_FILE = LucidDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nietzsche.LucidDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LucidDream.app/LucidDream";
+			};
+			name = Debug;
+		};
+		EB7F5FFB207B48B000D0C458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R2QCX6BSC;
+				INFOPLIST_FILE = LucidDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nietzsche.LucidDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LucidDream.app/LucidDream";
+			};
+			name = Release;
+		};
+		EB7F5FFD207B48B000D0C458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R2QCX6BSC;
+				INFOPLIST_FILE = LucidDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nietzsche.LucidDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LucidDream;
+			};
+			name = Debug;
+		};
+		EB7F5FFE207B48B000D0C458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R2QCX6BSC;
+				INFOPLIST_FILE = LucidDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nietzsche.LucidDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LucidDream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB7F5FC6207B48B000D0C458 /* Build configuration list for PBXProject "LucidDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7F5FF4207B48B000D0C458 /* Debug */,
+				EB7F5FF5207B48B000D0C458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7F5FF6207B48B000D0C458 /* Build configuration list for PBXNativeTarget "LucidDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7F5FF7207B48B000D0C458 /* Debug */,
+				EB7F5FF8207B48B000D0C458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7F5FF9207B48B000D0C458 /* Build configuration list for PBXNativeTarget "LucidDreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7F5FFA207B48B000D0C458 /* Debug */,
+				EB7F5FFB207B48B000D0C458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7F5FFC207B48B000D0C458 /* Build configuration list for PBXNativeTarget "LucidDreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7F5FFD207B48B000D0C458 /* Debug */,
+				EB7F5FFE207B48B000D0C458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB7F5FD5207B48B000D0C458 /* LucidDream.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB7F5FD6207B48B000D0C458 /* LucidDream.xcdatamodel */,
+			);
+			currentVersion = EB7F5FD6207B48B000D0C458 /* LucidDream.xcdatamodel */;
+			path = LucidDream.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB7F5FC3207B48B000D0C458 /* Project object */;
+}
