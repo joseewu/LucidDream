@@ -685,7 +685,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FD7EE28B1360C9C50EE24838 /* Pods-LucidDreamTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2R2QCX6BSC;
@@ -703,7 +702,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3F871D877772AC52C89FC50 /* Pods-LucidDreamTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2R2QCX6BSC;
@@ -721,7 +719,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B820E95E91F9ADDB6710F151 /* Pods-LucidDreamUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2R2QCX6BSC;
 				INFOPLIST_FILE = LucidDreamUITests/Info.plist;
@@ -738,7 +735,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 887FD70F3B791DADCA0C4513 /* Pods-LucidDreamUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2R2QCX6BSC;
 				INFOPLIST_FILE = LucidDreamUITests/Info.plist;
