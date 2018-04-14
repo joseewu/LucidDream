@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CC146CF1EB7A4E121A30EEF /* Pods_LucidDreamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082C9F238CB7F845E53BE7DA /* Pods_LucidDreamUITests.framework */; };
+		A1A2B8628785F4F39DF3EE73 /* Pods_LucidDream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9E8364AD5A9CEB4CDDD417 /* Pods_LucidDream.framework */; };
+		C3B665D3F3D153759DCBC139 /* Pods_LucidDreamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F42CFC0E417001CD25BCE1C /* Pods_LucidDreamTests.framework */; };
 		EB7F5FCF207B48B000D0C458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F5FCE207B48B000D0C458 /* AppDelegate.swift */; };
 		EB7F5FD1207B48B000D0C458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F5FD0207B48B000D0C458 /* ViewController.swift */; };
 		EB7F5FD4207B48B000D0C458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7F5FD2207B48B000D0C458 /* Main.storyboard */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		082C9F238CB7F845E53BE7DA /* Pods_LucidDreamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LucidDreamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1631EC3903A0279E6BDAED2C /* Pods-LucidDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucidDream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LucidDream/Pods-LucidDream.debug.xcconfig"; sourceTree = "<group>"; };
+		887FD70F3B791DADCA0C4513 /* Pods-LucidDreamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucidDreamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LucidDreamUITests/Pods-LucidDreamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F42CFC0E417001CD25BCE1C /* Pods_LucidDreamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LucidDreamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F871D877772AC52C89FC50 /* Pods-LucidDreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucidDreamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LucidDreamTests/Pods-LucidDreamTests.release.xcconfig"; sourceTree = "<group>"; };
+		B820E95E91F9ADDB6710F151 /* Pods-LucidDreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucidDreamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LucidDreamUITests/Pods-LucidDreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3B4E4DB9DCF2239401CF509 /* Pods-LucidDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucidDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-LucidDream/Pods-LucidDream.release.xcconfig"; sourceTree = "<group>"; };
 		EB7F5FCB207B48B000D0C458 /* LucidDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LucidDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7F5FCE207B48B000D0C458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7F5FD0207B48B000D0C458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		EB7F5FED207B48B000D0C458 /* LucidDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LucidDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7F5FF1207B48B000D0C458 /* LucidDreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LucidDreamUITests.swift; sourceTree = "<group>"; };
 		EB7F5FF3207B48B000D0C458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9E8364AD5A9CEB4CDDD417 /* Pods_LucidDream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LucidDream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7EE28B1360C9C50EE24838 /* Pods-LucidDreamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucidDreamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LucidDreamTests/Pods-LucidDreamTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A2B8628785F4F39DF3EE73 /* Pods_LucidDream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B665D3F3D153759DCBC139 /* Pods_LucidDreamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC146CF1EB7A4E121A30EEF /* Pods_LucidDreamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CD4BF787A807D7DB6FF8962 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB9E8364AD5A9CEB4CDDD417 /* Pods_LucidDream.framework */,
+				8F42CFC0E417001CD25BCE1C /* Pods_LucidDreamTests.framework */,
+				082C9F238CB7F845E53BE7DA /* Pods_LucidDreamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5156F53EF5567232A631E19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1631EC3903A0279E6BDAED2C /* Pods-LucidDream.debug.xcconfig */,
+				E3B4E4DB9DCF2239401CF509 /* Pods-LucidDream.release.xcconfig */,
+				FD7EE28B1360C9C50EE24838 /* Pods-LucidDreamTests.debug.xcconfig */,
+				B3F871D877772AC52C89FC50 /* Pods-LucidDreamTests.release.xcconfig */,
+				B820E95E91F9ADDB6710F151 /* Pods-LucidDreamUITests.debug.xcconfig */,
+				887FD70F3B791DADCA0C4513 /* Pods-LucidDreamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB7F5FC2207B48B000D0C458 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				EB7F5FE5207B48B000D0C458 /* LucidDreamTests */,
 				EB7F5FF0207B48B000D0C458 /* LucidDreamUITests */,
 				EB7F5FCC207B48B000D0C458 /* Products */,
+				B5156F53EF5567232A631E19 /* Pods */,
+				6CD4BF787A807D7DB6FF8962 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7F5FF6207B48B000D0C458 /* Build configuration list for PBXNativeTarget "LucidDream" */;
 			buildPhases = (
+				3478EAD2ED7F9EB798F387F8 /* [CP] Check Pods Manifest.lock */,
 				EB7F5FC7207B48B000D0C458 /* Sources */,
 				EB7F5FC8207B48B000D0C458 /* Frameworks */,
 				EB7F5FC9207B48B000D0C458 /* Resources */,
+				DC2C77909C52EEEBA7C6A02E /* [CP] Embed Pods Frameworks */,
+				B82107AF3DC1F03B8309684C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7F5FF9207B48B000D0C458 /* Build configuration list for PBXNativeTarget "LucidDreamTests" */;
 			buildPhases = (
+				A967706109976CE7E1115C2F /* [CP] Check Pods Manifest.lock */,
 				EB7F5FDE207B48B000D0C458 /* Sources */,
 				EB7F5FDF207B48B000D0C458 /* Frameworks */,
 				EB7F5FE0207B48B000D0C458 /* Resources */,
+				85C4A5E136B36182A31A0D62 /* [CP] Embed Pods Frameworks */,
+				CC35CE547AFB898672041855 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7F5FFC207B48B000D0C458 /* Build configuration list for PBXNativeTarget "LucidDreamUITests" */;
 			buildPhases = (
+				ABB58023E18DB3FCED866ABD /* [CP] Check Pods Manifest.lock */,
 				EB7F5FE9207B48B000D0C458 /* Sources */,
 				EB7F5FEA207B48B000D0C458 /* Frameworks */,
 				EB7F5FEB207B48B000D0C458 /* Resources */,
+				243248755CEE6774E13BABAB /* [CP] Embed Pods Frameworks */,
+				054390A48CE9B0FA4C59D17B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,174 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		054390A48CE9B0FA4C59D17B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LucidDreamUITests/Pods-LucidDreamUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		243248755CEE6774E13BABAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LucidDreamUITests/Pods-LucidDreamUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LucidDreamUITests/Pods-LucidDreamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3478EAD2ED7F9EB798F387F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LucidDream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85C4A5E136B36182A31A0D62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LucidDreamTests/Pods-LucidDreamTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LucidDreamTests/Pods-LucidDreamTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A967706109976CE7E1115C2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LucidDreamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB58023E18DB3FCED866ABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LucidDreamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B82107AF3DC1F03B8309684C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LucidDream/Pods-LucidDream-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC35CE547AFB898672041855 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LucidDreamTests/Pods-LucidDreamTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2C77909C52EEEBA7C6A02E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LucidDream/Pods-LucidDream-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LucidDream/Pods-LucidDream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB7F5FC7207B48B000D0C458 /* Sources */ = {
@@ -428,6 +645,7 @@
 		};
 		EB7F5FF7207B48B000D0C458 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1631EC3903A0279E6BDAED2C /* Pods-LucidDream.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -446,6 +664,7 @@
 		};
 		EB7F5FF8207B48B000D0C458 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B4E4DB9DCF2239401CF509 /* Pods-LucidDream.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -464,6 +683,7 @@
 		};
 		EB7F5FFA207B48B000D0C458 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7EE28B1360C9C50EE24838 /* Pods-LucidDreamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +701,7 @@
 		};
 		EB7F5FFB207B48B000D0C458 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F871D877772AC52C89FC50 /* Pods-LucidDreamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +719,7 @@
 		};
 		EB7F5FFD207B48B000D0C458 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B820E95E91F9ADDB6710F151 /* Pods-LucidDreamUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +736,7 @@
 		};
 		EB7F5FFE207B48B000D0C458 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887FD70F3B791DADCA0C4513 /* Pods-LucidDreamUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
