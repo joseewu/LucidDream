@@ -18,6 +18,7 @@
 		EB7F5FDC207B48B000D0C458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7F5FDA207B48B000D0C458 /* LaunchScreen.storyboard */; };
 		EB7F5FE7207B48B000D0C458 /* LucidDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F5FE6207B48B000D0C458 /* LucidDreamTests.swift */; };
 		EB7F5FF2207B48B000D0C458 /* LucidDreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F5FF1207B48B000D0C458 /* LucidDreamUITests.swift */; };
+		EBCA34522084F6AF0098CBA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBCA34512084F6AF0098CBA2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		EB7F5FF1207B48B000D0C458 /* LucidDreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LucidDreamUITests.swift; sourceTree = "<group>"; };
 		EB7F5FF3207B48B000D0C458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB9E8364AD5A9CEB4CDDD417 /* Pods_LucidDream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LucidDream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCA34512084F6AF0098CBA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD7EE28B1360C9C50EE24838 /* Pods-LucidDreamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucidDreamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LucidDreamTests/Pods-LucidDreamTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +147,7 @@
 				EB7F5FD8207B48B000D0C458 /* Assets.xcassets */,
 				EB7F5FDA207B48B000D0C458 /* LaunchScreen.storyboard */,
 				EB7F5FDD207B48B000D0C458 /* Info.plist */,
+				EBCA34512084F6AF0098CBA2 /* GoogleService-Info.plist */,
 				EB7F5FD5207B48B000D0C458 /* LucidDream.xcdatamodeld */,
 			);
 			path = LucidDream;
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB7F5FDC207B48B000D0C458 /* LaunchScreen.storyboard in Resources */,
+				EBCA34522084F6AF0098CBA2 /* GoogleService-Info.plist in Resources */,
 				EB7F5FD9207B48B000D0C458 /* Assets.xcassets in Resources */,
 				EB7F5FD4207B48B000D0C458 /* Main.storyboard in Resources */,
 			);
@@ -458,14 +462,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LucidDream/Pods-LucidDream-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -5,6 +5,9 @@ def main_sources
 pod 'Alamofire'
 pod 'RxSwift','~> 4.0'
 pod 'RxCocoa','~> 4.0'
+pod 'Firebase/Core'
+pod 'Firebase/Storage'
+pod 'Firebase/Database'
 end
 def test_sources
 #define your pod resources for unit test

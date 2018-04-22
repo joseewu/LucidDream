@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>452520137248-hd4vahvlqpnc3t2oouk2r7h5qs79luc7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.452520137248-hd4vahvlqpnc3t2oouk2r7h5qs79luc7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAAHPA8-5KEsxEvkrK-8UW5JDJZf30MT-Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>452520137248</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.js.LucidDream</string>
+	<key>PROJECT_ID</key>
+	<string>luciddream-3b48e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>luciddream-3b48e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:452520137248:ios:6fadf27985e75668</string>
+	<key>DATABASE_URL</key>
+	<string>https://luciddream-3b48e.firebaseio.com</string>
+</dict>
+</plist>
