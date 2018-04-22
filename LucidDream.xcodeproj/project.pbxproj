@@ -10,6 +10,11 @@
 		0CC146CF1EB7A4E121A30EEF /* Pods_LucidDreamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082C9F238CB7F845E53BE7DA /* Pods_LucidDreamUITests.framework */; };
 		A1A2B8628785F4F39DF3EE73 /* Pods_LucidDream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9E8364AD5A9CEB4CDDD417 /* Pods_LucidDream.framework */; };
 		C3B665D3F3D153759DCBC139 /* Pods_LucidDreamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F42CFC0E417001CD25BCE1C /* Pods_LucidDreamTests.framework */; };
+		EB35CFCB208CF3B3007FCE1E /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35CFC6208CF3B2007FCE1E /* Reusable.swift */; };
+		EB35CFCD208CF3B3007FCE1E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35CFC8208CF3B2007FCE1E /* Coordinator.swift */; };
+		EB35CFCE208CF3B3007FCE1E /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35CFC9208CF3B2007FCE1E /* ViewModelType.swift */; };
+		EB35CFCF208CF3B3007FCE1E /* ViewModelAttaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35CFCA208CF3B3007FCE1E /* ViewModelAttaching.swift */; };
+		EB35CFD2208CF431007FCE1E /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35CFD1208CF431007FCE1E /* HomePageController.swift */; };
 		EB7F5FCF207B48B000D0C458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F5FCE207B48B000D0C458 /* AppDelegate.swift */; };
 		EB7F5FD1207B48B000D0C458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F5FD0207B48B000D0C458 /* ViewController.swift */; };
 		EB7F5FD4207B48B000D0C458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7F5FD2207B48B000D0C458 /* Main.storyboard */; };
@@ -46,6 +51,11 @@
 		B3F871D877772AC52C89FC50 /* Pods-LucidDreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucidDreamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LucidDreamTests/Pods-LucidDreamTests.release.xcconfig"; sourceTree = "<group>"; };
 		B820E95E91F9ADDB6710F151 /* Pods-LucidDreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucidDreamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LucidDreamUITests/Pods-LucidDreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3B4E4DB9DCF2239401CF509 /* Pods-LucidDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucidDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-LucidDream/Pods-LucidDream.release.xcconfig"; sourceTree = "<group>"; };
+		EB35CFC6208CF3B2007FCE1E /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		EB35CFC8208CF3B2007FCE1E /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		EB35CFC9208CF3B2007FCE1E /* ViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		EB35CFCA208CF3B3007FCE1E /* ViewModelAttaching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelAttaching.swift; sourceTree = "<group>"; };
+		EB35CFD1208CF431007FCE1E /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
 		EB7F5FCB207B48B000D0C458 /* LucidDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LucidDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7F5FCE207B48B000D0C458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7F5FD0207B48B000D0C458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +126,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EB35CFD0208CF3BF007FCE1E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EB35CFC8208CF3B2007FCE1E /* Coordinator.swift */,
+				EB35CFC6208CF3B2007FCE1E /* Reusable.swift */,
+				EB35CFCA208CF3B3007FCE1E /* ViewModelAttaching.swift */,
+				EB35CFC9208CF3B2007FCE1E /* ViewModelType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EB35CFD3208CF435007FCE1E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F5FD0207B48B000D0C458 /* ViewController.swift */,
+				EB35CFD1208CF431007FCE1E /* HomePageController.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 		EB7F5FC2207B48B000D0C458 = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				EB7F5FCE207B48B000D0C458 /* AppDelegate.swift */,
-				EB7F5FD0207B48B000D0C458 /* ViewController.swift */,
+				EB35CFD3208CF435007FCE1E /* Features */,
+				EB35CFD0208CF3BF007FCE1E /* Protocols */,
 				EB7F5FD2207B48B000D0C458 /* Main.storyboard */,
 				EB7F5FD8207B48B000D0C458 /* Assets.xcassets */,
 				EB7F5FDA207B48B000D0C458 /* LaunchScreen.storyboard */,
@@ -491,9 +522,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB35CFCB208CF3B3007FCE1E /* Reusable.swift in Sources */,
+				EB35CFCF208CF3B3007FCE1E /* ViewModelAttaching.swift in Sources */,
+				EB35CFCD208CF3B3007FCE1E /* Coordinator.swift in Sources */,
 				EB7F5FD1207B48B000D0C458 /* ViewController.swift in Sources */,
 				EB7F5FCF207B48B000D0C458 /* AppDelegate.swift in Sources */,
+				EB35CFD2208CF431007FCE1E /* HomePageController.swift in Sources */,
 				EB7F5FD7207B48B000D0C458 /* LucidDream.xcdatamodeld in Sources */,
+				EB35CFCE208CF3B3007FCE1E /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,7 +700,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 53PCKL938K;
 				INFOPLIST_FILE = LucidDream/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.js.LucidDream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -684,7 +720,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 53PCKL938K;
 				INFOPLIST_FILE = LucidDream/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.js.LucidDream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
