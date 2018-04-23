@@ -14,14 +14,15 @@ import Firebase
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var ref: DatabaseReference!
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
-        ref = Database.database().reference()
-        let refHandle = ref.observe(DataEventType.value, with: { (snapshot) in
-            print(snapshot)
-        })
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let vc = HomePageController()
+        let rootVC = UINavigationController(rootViewController: vc)
+        window?.rootViewController = rootVC
+        window?.makeKeyAndVisible()
         return true
     }
 
